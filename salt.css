@@ -13,5 +13,31 @@ h1 {
 -webkit-transform: scale(-1, 1);
 -o-transform: scale(-1, 1);
 transform: scale(-1, 1);
-filter: hand;
+}
+
+
+middle {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.right {
+    float: right;
+    clear: left;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    
+}
+#ld, #rd{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%; 
+}
+
+audio {
+    display: none;
 }
